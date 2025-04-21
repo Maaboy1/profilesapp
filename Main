@@ -1,1 +1,46 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background-color: #f8f8f8;
+        }
+        .container {
+            display: inline-block;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        .email-box {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            display: inline-block;
+            font-size: 18px;
+        }
+        .creator {
+            color: #00bfff;
+            text-decoration: none;
+        }
+        .signout-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>My Profile</h2>
+        <div class="email-box">AbyanHuq@my.unt.edu</div>
+        <div><a class="creator" href="#">Created by Abyan Huq</a></div>
+        <button class="signout-btn">Sign Out</button>
+    </div>
+</body>
+</html>
